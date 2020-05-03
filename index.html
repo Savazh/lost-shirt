@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <title>LoftSchool</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!--Hero, Head-->
+    <section class="hero">
+      <header class="header">
+        <a href="#" class="logo">
+          <img src="img/content/logos/logo-main.png" class="logo__main" alt="">
+        </a>
+        <a href="mailto:m.savazh@gmail.com" class="mail">
+          <div class="mail__title">По всем вопросам пишите на :</div>
+          <div class="mail__content">m.savazh@gmail.com</div>
+        </a>
+      </header>
+      <div class="hero__content">
+        <ul class="fade-slider">
+          <li class="fade-slider__item fade-slider__item--style-tshirts fade-slider__item--visible">
+            <div class="fade-slider__text">
+              <h1 class="lined-text">
+                <span class="lined-text__word">три</span>
+                <span class="lined-text__word">футболки</span>
+                <span class="lined-text__word lined-text__word--color-yellow">по цене</span>
+                <span class="lined-text__word lined-text__word--color-yellow">двух</span>
+              </h1>
+            </div>
+          </li>
+          <li class="fade-slider__item fade-slider__item--style-games ">
+            <div class="fade-slider__text">
+              <h1 class="lined-text lined-text--no-indent">
+                <span class="lined-text__word">Любимые игры</span>
+                <span class="lined-text__word lined-text__word--color-yellow">на лучших футболках</span>
+              </h1>
+            </div>
+          </li>
+          <li class="fade-slider__item fade-slider__item--style-presents">
+            <div class="fade-slider__text">
+              <h1 class="lined-text lined-text--no-indent">
+                <span class="lined-text__word">Подарки</span>
+                <span class="lined-text__word lined-text__word--color-yellow">для любимых</span>
+              </h1>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!--SIDEBAR-->
+      <aside class="sidebar">
+        <a href="#" class="sidebar__hamburger">
+          <svg class="sidebar__hamburger-icon">
+            <use xlink:href="/LoftschoolWeb/img/icons-sprite.svg#bars"></use>
+          </svg>
+        </a>
+        <div class="sidebar__header">
+          <a href="">
+            <img src="/LoftschoolWeb/img/content/logos/logo-main.png" alt="" class="logo__image">
+          </a>
+          <a href="" class="sidebar__close">
+            <svg class="sidebar__close-icon">
+              <use xlink:href="./img/icons-sprite.svg#cross"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="side-menu sidebar__menu">
+          <ul class="side-menu__list">
+            <li class="side-menu__item">
+              <a href="" class="side-menu__link">Детская коллекция</a>
+            </li>
+            <li class="side-menu__item">
+              <a href="" class="side-menu__link">Мужская коллекция</a>
+            </li>
+            <li class="side-menu__item">
+              <a href="" class="side-menu__link">Женская коллекция</a>
+            </li>
+            <li class="side-menu__item">
+              <a href="" class="side-menu__link">Популярные принты</a>
+            </li>
+            <li class="side-menu__item">
+              <a href="" class="side-menu__link">Новые принты</a>
+            </li>
+            <li class="side-menu__item">
+              <a href="" class="side-menu__link">Специальные предложения</a>
+            </li>
+            <li class="side-menu__item">
+              <a href="" class="side-menu__link">Скоро в продаже</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+    </section>
+    <!--Products-->
+    <section class="products">
+      <div class="container">
+        <ul class="filter">
+          <li class="filter__item filter__item--active">
+            <a href="#" data-filter="popular" class="filter__link">Популярное</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="new" class="filter__link">Новинки</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="bestsellers" class="filter__link">Бестесллеры</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="specials" class="filter__link">Специальные предложения</a>
+          </li>
+          <li class="filter__item">
+            <a href="#" data-filter="soon" class="filter__link">Скоро в продаже</a>
+          </li>
+        </ul>
+        <!--Product List-->
+        <ul class="products__list">
+          <li class="products__item new bestsellers">
+            <div class="products__price">
+              <div class="products__price-amount">1800</div>
+            </div>
+            <div class="products__content">
+              <img src="/LoftschoolWeb/img/tshirts/tshirt_01.png" alt="bo-jack" class="products__img">
+              <div class="products__desc">
+                <div class="products__desc-text">
+                  Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Mollitia?
+                </div>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="products__item new specials soon">
+            <div class="products__price">
+              <div class="products__price-amount">1800</div>
+            </div>
+            <div class="products__content">
+              <img src="/LoftschoolWeb/img/tshirts/tshirt_02.png" alt="bo-jack" class="products__img">
+              <div class="products__desc">
+                <div class="products__desc-text">
+                  Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Mollitia?
+                </div>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="products__item products__item--color--black products__item--size--double new specials popular">
+            <div class="products__price">
+              <div class="products__price-amount">1800</div>
+            </div>
+            <div class="products__content">
+              <img src="/LoftschoolWeb/img/tshirts/tshirt_03.png" alt="bo-jack" class="products__img">
+              <div class="products__desc">
+                <div class="products__desc-text">
+                  Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Mollitia?
+                </div>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="products__item products__item--color--black products__item--size--double new specials soon">
+            <div class="products__price">
+              <div class="products__price-amount">1800</div>
+            </div>
+            <div class="products__content">
+              <img src="/LoftschoolWeb/img/tshirts/tshirt_04.png" alt="bo-jack" class="products__img">
+              <div class="products__desc">
+                <div class="products__desc-text">
+                  Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Mollitia?
+                </div>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="products__item  new specials soon">
+            <div class="products__price">
+              <div class="products__price-amount">1800</div>
+            </div>
+            <div class="products__content">
+              <img src="/LoftschoolWeb/img/tshirts/tshirt_05.png" alt="bo-jack" class="products__img">
+              <div class="products__desc">
+                <div class="products__desc-text">
+                  Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Mollitia?
+                </div>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+          <li class="products__item new">
+            <div class="products__price">
+              <div class="products__price-amount">1800</div>
+            </div>
+            <div class="products__content">
+              <img src="/LoftschoolWeb/img/tshirts/tshirt_06.png" alt="bo-jack" class="products__img">
+              <div class="products__desc">
+                <div class="products__desc-text">
+                  Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Mollitia?
+                </div>
+                <a href="" class="btn">Подробнее</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--Collections-->
+    <section class="collections">
+      <div class="container">
+        <ul class="collections__list">
+          <li class="collections__item collections__item--type-guys">
+            <!--Заголовок-->
+            <a href="#" class="collections__link">
+              <h2 class="collections__title">Мужская коллекция</h2>
+              <!--Текст-->
+              <div class="collections__desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi.
+              </div>
+              <!--Кнопка-->
+              <div class="btn">просмотреть</div>
+            </a>
+          </li>
+          <li class="collections__item collections__item--type-girls">
+            <a href="#" class="collections__link">
+              <!--Заголовок-->
+              <h2 class="collections__title">Женская коллекция</h2>
+              <!--Текст-->
+              <div class="collections__desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi.
+              </div>
+              <!--Кнопка-->
+              <div class="btn">просмотреть</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <nav class="site-menu">
+          <ul class="site-menu__sections">
+            <li class="site-menu_col">
+              <h3 class="site-menu__title">Информация</h3>
+              <ul class="site-menu__list">
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">О магазине</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Адреса магазинов</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Как сделать заказ?</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Обмен и возврат</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-menu_col">
+              <h3 class="site-menu__title">Информация</h3>
+              <ul class="site-menu__list">
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">О магазине</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Адреса магазинов</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Как сделать заказ?</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Обмен и возврат</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-menu_col">
+              <h3 class="site-menu__title">Информация</h3>
+              <ul class="site-menu__list">
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">О магазине</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Адреса магазинов</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Как сделать заказ?</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Обмен и возврат</a>
+                </li>
+                <li class="site-menu__item">
+                  <a href="" class="site-menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </li>
+            <!--Contacts-->
+            <li class="site-menu_col">
+              <h3 class="site-menu__title">Контактная Информация</h3>
+              <div class="site-menu__text">
+                Lorem ipsum dolor sit amet <br>
+                consectetur adipisicing elit. <br>
+                Recusandae!
+              </div>
+              <div class="site-menu__text">
+                <a href="tel:+380737057576" class="site-menu__text-row">
+                  Tel : +38073792130
+                </a>
+                <a href="mailto:m.savazh@gmail.com" class="site-menu__text-row">
+                  Email: m.savazh@gmail.com
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- Social Buttons -->
+        <section class="extras">
+          <div class="extras__col">
+            <a href="#" class="extras__best">
+              Лучшие принты <br>
+              2019 года
+            </a>
+          </div>
+          <div class="extras__col">
+            <div class="extras__col-socials">
+              <ul class="socials">
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon">
+                      <use xlink:href="./img/icons-sprite.svg#fb"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon">
+                      <use xlink:href="./img/icons-sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon">
+                      <use xlink:href="./img/icons-sprite.svg#insta"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon">
+                      <use xlink:href="./img/icons-sprite.svg#pin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="/LoftschoolWeb/scripts/sidebar-menu.js"></script>
+  <script src="/LoftschoolWeb/scripts/fade-slider.js"></script>
+  <script src="/LoftschoolWeb/scripts/filter.js"></script>
+</body>
+
+</html>

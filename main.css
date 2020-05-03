@@ -50,7 +50,7 @@ ul>li {
 .hero {
   height: 100vh;
   min-height: 650px;
-  background: url('/LoftschoolWeb/img/bg/hero.jpg') center center/ cover no-repeat;
+  background: url('img/bg/hero.jpg') center center/ cover no-repeat;
   position: relative;
   margin-bottom: 130px;
 }
@@ -208,7 +208,7 @@ ul>li {
 }
 
 .fade-slider__item--style-tshirts {
-  background-image: url("/LoftschoolWeb/img/content/hero/slider_pic_1.png");
+  background-image: url("img/content/hero/slider_pic_1.png");
 }
 
 .fade-slider__item--style-tshirts .fade-slider__text {
@@ -218,7 +218,7 @@ ul>li {
 }
 
 .fade-slider__item--style-games {
-  background-image: url("/LoftschoolWeb/img/content/hero/slider_pic_2.png");
+  background-image: url("img/content/hero/slider_pic_2.png");
 }
 
 .fade-slider__item--style-games .fade-slider__text {
@@ -232,7 +232,7 @@ ul>li {
 }
 
 .fade-slider__item--style-presents {
-  background-image: url("/LoftschoolWeb/img/content/hero/slider_pic_2.png");
+  background-image: url("img/content/hero/slider_pic_2.png");
 }
 
 .fade-slider__item--style-presents .fade-slider__text {
@@ -444,7 +444,7 @@ ul>li {
   flex: 1;
   overflow: hidden;
   margin-right: 30px;
-  background: url(/LoftschoolWeb/img/bg/pattern.png) center center / 500px;
+  background: url(img/bg/pattern.png) center center / 500px;
   position: relative;
 }
 
@@ -464,11 +464,11 @@ ul>li {
 }
 
 .collections__item--type-guys:before {
-  background-image: url(/LoftschoolWeb/img/collections/collection_man.png);
+  background-image: url(img/collections/collection_man.png);
 }
 
 .collections__item--type-girls:before {
-  background-image: url(/LoftschoolWeb/img/collections/collection_woman.png);
+  background-image: url(img/collections/collection_woman.png);
   top: -31%;
   width: 80%;
   left: -25%;
